@@ -1,0 +1,14 @@
+Take an integer input and print all the divisors of the number. 
+Ans :- #include<bits/stdc++.h>
+        using namespace std;
+        int main() {
+        int n;
+        cout << "Enter a number: ";
+        cin >> n;
+        cout << "Divisors of " << n << " are: ";
+        for (int i = 1; i <= n; ++i) {
+        if (n % i == 0)
+        cout << i << " ";
+      }
+        return 0;
+   }
